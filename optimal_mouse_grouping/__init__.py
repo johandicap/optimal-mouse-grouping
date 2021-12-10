@@ -1,0 +1,3 @@
+"""
+Optimal Mouse Grouping package.
+"""

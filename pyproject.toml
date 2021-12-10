@@ -1,0 +1,14 @@
+[tool.isort]
+# See all options at https://pycqa.github.io/isort/docs/configuration/options.html
+py_version = 38
+line_length = 120
+lines_after_imports = 2
+multi_line_output = 9
+# See possible "multi_line_output" values at https://pycqa.github.io/isort/docs/configuration/multi_line_output_modes.html
+
+
+[tool.pylint.messages_control]
+max-line-length = 120
+disable = [
+  "invalid-name",
+]

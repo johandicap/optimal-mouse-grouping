@@ -1,0 +1,24 @@
+name: py38omg
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - cffi=1.14.5
+  - isort=5.9.2
+  - matplotlib=3.3.4
+  - mypy=0.910
+  - numpy=1.20.2
+  - openpyxl=3.0.7
+  - pandas-stubs=1.2.0.1
+  - pandas=1.2.5
+  - pip=21.1.3
+  - pylama=7.7.1
+  - pytest=6.2.4
+  - python=3.8.10
+  - seaborn=0.11.1
+  - tabulate=0.8.9
+  - types-tabulate=0.1.1
+  - wheel=0.36.2
+  - xlsxwriter=3.0.1
+  - pip:
+    - mip==1.13.0
