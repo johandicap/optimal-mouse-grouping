@@ -47,6 +47,12 @@ conda activate py38omg
 ```
 Note that your terminal will start showing `(py38omg)` to indicate that the conda environment is active.
 
+To later update the environment when the package list or versions are updated, do:
+
+```bash
+conda env update --file conda-env.yml --name py38omg
+```
+
 To deactivate the conda environment, simply do:
 
 ```bash
